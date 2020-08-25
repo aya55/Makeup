@@ -29,6 +29,10 @@ private int quantity=0;
 
     public void minus(View view) {
         quantity--;
+        if(quantity==-1){
+
+            quantity=0;
+        }
         textquantity.setText(""+quantity);
     }
 
