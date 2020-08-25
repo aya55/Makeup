@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".order">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/blush"
+        android:layout_width="411dp"
+        android:layout_height="214dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/blush" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:padding="10sp"
+        android:text="Quantity"
+        android:textColor="#C7A1AF"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        android:text="  + "
+        android:textSize="30dp"
+        android:onClick="plus"
+
+        />
+    <TextView
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#C7A1AF"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="0"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        android:text="      - "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:onClick="minus"
+
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="price"
+        android:textColor="#C7A1AF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#C7A1AF"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="0 $"
+android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:background="@drawable/background"
+        android:text="Order"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:onClick="order"
+
+        />
+
+</LinearLayout>
